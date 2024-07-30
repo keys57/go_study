@@ -11,4 +11,6 @@ func main() {
 		println(a / b)
 		println(a % b)
 	}
+	String()
+	Byte()
 }
