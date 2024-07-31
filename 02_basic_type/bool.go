@@ -4,5 +4,5 @@ func Bool() {
 	var a bool = true
 	var b bool = false
 
-	println(a || b)
+	println(b || a)
 }
