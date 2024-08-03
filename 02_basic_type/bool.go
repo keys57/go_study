@@ -6,4 +6,6 @@ func Bool() {
 	var c bool = (a && b)
 	println(a || b)
 	println(c)
+	var d bool = !(a && b)
+	println(d)
 }
