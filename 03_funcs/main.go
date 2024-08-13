@@ -12,5 +12,6 @@ func main() {
 	//
 	////使用 := 的前提，就是左边必须有至少一个新变量
 
-	Recursive()
+	UseFunctional4()
+	Defer()
 }
