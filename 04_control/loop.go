@@ -25,3 +25,23 @@ func ForArr() {
 		println(i, v)
 	}
 }
+
+func LoopBreak() {
+	i := 0
+	for true {
+		if i > 10 {
+			break
+		}
+		i++
+	}
+}
+
+func LoopContinue() {
+	i := 0
+	for i < 10 {
+		if i%2 == 1 {
+			continue
+		}
+		i++
+	}
+}
